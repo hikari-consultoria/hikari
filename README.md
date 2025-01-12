@@ -238,7 +238,7 @@
         <iframe src= "https://forms.gle/pA1jFzN9jUF3JTX78" width="100%" height="500" frameborder="0"></iframe>
 
         <p>Email: <a href="mailto:sac@hikariconsultoria.com.br">sac@hikariconsultoria.com.br</a></p>
-        <p>WhatsApp: <a href="https://wa.me/+5521990715348">(21) 99071-5348</a></p>
+        <p>WhatsApp: <a href="https://wa.me/+5521971415067">(21) 97141-5067</a></p>
 
         <div class="social-links">
             <a href="https://instagram.com/suaperfil" target="_blank"><i class="fab fa-instagram"></i></a>
