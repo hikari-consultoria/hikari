@@ -20,18 +20,22 @@
             color: white;
             padding: 1rem;
             display: flex;
-            justify-content: space-between;
             align-items: center;
             position: fixed;
             top: 0;
+            left: 0;
             width: 100%;
-            max-width: 1200px;
-            z-index: 1000;
             box-sizing: border-box;
+            z-index: 1000;
         }
         header img {
             width: 50px;
             margin-right: 10px;
+        }
+        header nav {
+            flex: 1;
+            display: flex;
+            justify-content: center;
         }
         nav ul {
             list-style: none;
@@ -128,25 +132,6 @@
             color: #4CAF50;
             margin-bottom: 1rem;
         }
-        .blog {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            gap: 2rem;
-        }
-        .blog-post {
-            background: white;
-            border: 1px solid #ddd;
-            border-radius: 8px;
-            padding: 1rem;
-            width: 100%;
-            max-width: 800px;
-            text-align: left;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-        }
-        .blog-post h3 {
-            color: #4CAF50;
-        }
         .social-links {
             display: flex;
             justify-content: center;
@@ -163,6 +148,28 @@
         }
         .social-links a:hover {
             background-color: #E60073;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+            align-items: center;
+        }
+        form input, form textarea, form button {
+            padding: 0.8rem;
+            width: 100%;
+            max-width: 400px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        form button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        form button:hover {
+            background-color: #45a049;
         }
     </style>
 </head>
@@ -212,27 +219,18 @@
         </div>
     </section>
 
-    <section id="blog">
-        <h2>Blog</h2>
-        <div class="blog">
-            <div class="blog-post">
-                <h3>Como Fazer Compras Internacionais com Segurança</h3>
-                <p>Aprenda dicas essenciais para comprar em sites internacionais com confiança e evitar problemas.</p>
-                <a href="#">Leia mais</a>
-            </div>
-            <div class="blog-post">
-                <h3>Top 5 Lojas Online Nacionais</h3>
-                <p>Descubra as melhores lojas brasileiras para fazer suas compras com segurança e praticidade.</p>
-                <a href="#">Leia mais</a>
-            </div>
-        </div>
-    </section>
-
     <section id="contact">
         <h2>Contato</h2>
-        <p>Entre em contato para mais informações e agende sua consultoria!</p>
-        <p>Email: <a href="mailto:seuemail@example.com">seuemail@example.com</a></p>
-        <p>WhatsApp: <a href="https://wa.me/seunumero">Clique aqui para conversar</a></p>
+        <p>Entre em contato pelo formulário ou pelos canais abaixo:</p>
+        <form>
+            <input type="text" name="nome" placeholder="Seu nome" required>
+            <input type="tel" name="whatsapp" placeholder="Seu WhatsApp com DDD" required>
+            <input type="email" name="email" placeholder="Seu email" required>
+            <button type="submit">Enviar</button>
+        </form>
+        
+        <p>Email: <a href="mailto:paulapsippy@gmail.com">paulapsippy@gmail.com</a></p>
+        <p>WhatsApp: <a href="https://wa.me/+5521990715348">(21) 99071-5348</a></p>
 
         <div class="social-links">
             <a href="https://instagram.com/suaperfil" target="_blank"><i class="fab fa-instagram"></i></a>
