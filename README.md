@@ -196,7 +196,7 @@
 
     <section id="about">
         <h2>Sobre Mim</h2>
-        <p>Sou formada em <strong>Comércio Exterior</strong>, especializada em <strong>Importações</strong> e atualmente curso MBA de <strong>Analista de Logística</strong>. Com mais de <strong>7 anos de experiência</strong>, oferece consultoria para compras online seguras, ajudando clientes a identificar lojas confiáveis e acompanhar pedidos.</p>
+        <p>Sou formada em <strong>Comércio Exterior</strong>, especializada em <strong>Importações</strong> e atualmente curso MBA em <strong>Gestão de Logística</strong>. Com mais de <strong>7 anos de experiência</strong>, oferece consultoria para compras online seguras, ajudando clientes a identificar lojas confiáveis e acompanhar pedidos.</p>
     </section>
 
     <section id="services">
