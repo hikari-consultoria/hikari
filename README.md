@@ -182,6 +182,7 @@
                 <li><a href="#home">🏠 Início</a></li>
                 <li><a href="#about">👩‍💻 Sobre Mim</a></li>
                 <li><a href="#services">🛠️ Serviços</a></li>
+                <li><a href="#blog">📰 Blog</a></li>
                 <li><a href="#contact">📞 Contato</a></li>
             </ul>
         </nav>
@@ -189,8 +190,8 @@
 
     <div class="hero">
         <h1>Hikari Consultoria Digital</h1>
-        <p>Do Mundo para sua Casa</p>
-        <a href="#contact">Agende sua Consultoria</a>
+        <p>Do Mundo Para a Sua Casa</p>
+        <a href="#contact">FAÇA SEU AGENDAMENTO</a>
     </div>
 
     <section id="about">
@@ -208,24 +209,35 @@
             </div>
             <div class="service">
                 <i class="fas fa-globe"></i>
-                <h3>Consultoria de Compras Internacionais</h3>
+                <h3>Consultoria de Compras Internacional</h3>
                 <p>Auxílio para compras em plataformas globais com segurança, incluindo análise de taxas alfandegárias e orientações para evitar fraudes.</p>
             </div>
             <div class="service">
                 <i class="fas fa-shield-alt"></i>
                 <h3>Segurança</h3>
-                <p>Garantimos que suas compras sejam protegidas contra fraudes com avaliações detalhadas e confiáveis.</p>
+                <p>Garantimos que você faça suas compras somente com vendedores e lojas confiáveis.</p>
             </div>
+        </div>
+    </section>
+
+    <section id="blog">
+        <h2>Blog</h2>
+        <div class="blog">
+            <div class="blog-post">
+                <h3>Compras com Segurança</h3>
+                <p>Aprenda dicas essenciais para comprar em sites nacionais e internacionais com confiança e evitar problemas.</p>
+                <a href="#">Leia mais</a>
+            </div>   
         </div>
     </section>
 
     <section id="contact">
         <h2>Contato</h2>
-        <p>Entre em contato para mais informações e agende sua consultoria!</p>
+        <p>Entre em contato pelo formulário ou por um de nossos canais abaixo:</p>
 
         <iframe src= "https://forms.gle/pA1jFzN9jUF3JTX78" width="100%" height="500" frameborder="0"></iframe>
 
-        <p>Email: <a href="mailto:paulapsippy@gmail.com">paulapsippy@gmail.com</a></p>
+        <p>Email: <a href="mailto:sac@hikariconsultoria.com.br">sac@hikariconsultoria.com.br</a></p>
         <p>WhatsApp: <a href="https://wa.me/+5521990715348">(21) 99071-5348</a></p>
 
         <div class="social-links">
