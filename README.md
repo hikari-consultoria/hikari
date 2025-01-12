@@ -180,7 +180,7 @@
         <nav>
             <ul>
                 <li><a href="#home">🏠 Início</a></li>
-                <li><a href="#about">👩‍💻 Sobre Nós</a></li>
+                <li><a href="#about">👩‍💻 Sobre Mim</a></li>
                 <li><a href="#services">🛠️ Serviços</a></li>
                 <li><a href="#contact">📞 Contato</a></li>
             </ul>
