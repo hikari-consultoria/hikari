@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -21,16 +21,18 @@
             color: white;
             padding: 1rem;
             display: flex;
-            justify-content: space-between;
+            justify-content: center;
             align-items: center;
             position: fixed;
             top: 0;
             width: 100%;
             max-width: 1200px;
             z-index: 1000;
+            box-sizing: border-box;
         }
         header img {
             width: 50px;
+            margin-right: 10px;
         }
         nav ul {
             list-style: none;
@@ -177,8 +179,8 @@
     <section id="contact">
         <h2>Contato</h2>
         <p>Entre em contato para mais informações e agende sua consultoria!</p>
-        <p><a href="mailto:paulapsippy@gmail.com">Envie-nos um email</a></p>
-        <p><a href="https://wa.me/+5521990715348">Envie-nos um Whatsapp</a></p>
+        <p><a href="mailto:paulapsippy@gmail.com">EMAIL</a></p>
+        <p><a href="https://wa.me/+5521990715348">WHATSAPP</a></p>
     </section>
 
     <footer>
@@ -186,4 +188,3 @@
     </footer>
 </body>
 </html>
-
