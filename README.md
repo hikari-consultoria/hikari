@@ -189,12 +189,12 @@
 
     <div class="hero">
         <h1>Hikari Consultoria Digital</h1>
-        <p>Do Mundo para sua Casa</p>
+        <p>Do Mundo Para a Sua Casa</p>
         <a href="#contact">Agende sua Consultoria</a>
     </div>
 
     <section id="about">
-        <h2>Sobre Nós</h2>
+        <h2>Sobre Mim</h2>
         <p>Com anos de experiência em compras online, ajudamos você a comprar com segurança e economia, superando medos e incertezas.</p>
     </section>
 
