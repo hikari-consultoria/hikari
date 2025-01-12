@@ -20,6 +20,7 @@
             color: white;
             padding: 1rem;
             display: flex;
+            justify-content: space-between;
             align-items: center;
             position: fixed;
             top: 0;
@@ -178,24 +179,24 @@
         <img src="logo.png" alt="Hikari Consultoria Digital">
         <nav>
             <ul>
-                <li><a href="#home">Início</a></li>
-                <li><a href="#about">Sobre Mim</a></li>
-                <li><a href="#services">Serviços</a></li>
-                <li><a href="#blog">Blog</a></li>
-                <li><a href="#contact">Contato</a></li>
+                <li><a href="#home">🏠 Início</a></li>
+                <li><a href="#about">👩‍💻 Sobre Nós</a></li>
+                <li><a href="#services">🛠️ Serviços</a></li>
+                <li><a href="#blog">📰 Blog</a></li>
+                <li><a href="#contact">📞 Contato</a></li>
             </ul>
         </nav>
     </header>
 
     <div class="hero">
         <h1>Hikari Consultoria Digital</h1>
-        <p>Do Mundo Para a Sua Casa</p>
+        <p>Do Mundo para sua Casa</p>
         <a href="#contact">Agende sua Consultoria</a>
     </div>
 
     <section id="about">
-        <h2>Sobre Mim</h2>
-        <p>Paula Vasconcelos é formada em Comércio Exterior, especializada em Importações, e atualmente cursa MBA de Analista em Logística. Com mais de 7 anos de experiência em compras online, ela possui amplo conhecimento em reputação das lojas, acompanhamento de pedidos e orientação para compras seguras.</p>
+        <h2>Sobre Nós</h2>
+        <p>Sou formada em <strong>Comércio Exterior</strong>, especializada em <strong>Importações</strong> e atualmente curso MBA de <strong>Analista de Logística</strong>. Com mais de <strong>7 anos de experiência</strong>, oferece consultoria para compras online seguras, ajudando clientes a identificar lojas confiáveis e acompanhar pedidos.</p>
     </section>
 
     <section id="services">
@@ -204,11 +205,11 @@
             <div class="service">
                 <i class="fas fa-shopping-cart"></i>
                 <h3>Consultoria de Compras Nacionais</h3>
-                <p>Orientação para identificar lojas confiáveis no Brasil, aproveitar promoções exclusivas e realizar compras seguras.</p>
+                <p>Orientação para identificar lojas confiáveis no Brasil, aproveitar promoções exclusivas e realizar compras seguras. Paula Vasconcelos oferece suporte completo para garantir que sua experiência de compra seja eficiente e sem surpresas.</p>
             </div>
             <div class="service">
                 <i class="fas fa-globe"></i>
-                <h3>Consultoria Internacional</h3>
+                <h3>Consultoria de Compras Internacional</h3>
                 <p>Auxílio para compras em plataformas globais com segurança, incluindo análise de taxas alfandegárias e orientações para evitar fraudes.</p>
             </div>
             <div class="service">
@@ -219,13 +220,28 @@
         </div>
     </section>
 
+    <section id="blog">
+        <h2>Blog</h2>
+        <div class="blog">
+            <div class="blog-post">
+                <h3>Como Fazer Compras Internacionais com Segurança</h3>
+                <p>Aprenda dicas essenciais para comprar em sites internacionais com confiança e evitar problemas.</p>
+                <a href="#">Leia mais</a>
+            </div>
+            <div class="blog-post">
+                <h3>Top 5 Lojas Online Nacionais</h3>
+                <p>Descubra as melhores lojas brasileiras para fazer suas compras com segurança e praticidade.</p>
+                <a href="#">Leia mais</a>
+            </div>
+        </div>
+    </section>
+
     <section id="contact">
         <h2>Contato</h2>
-        
-        <p>Entre em contato pelo formulário ou pelos canais abaixo:</p>
-        
+        <p>Entre em contato para mais informações e agende sua consultoria!</p>
+
         <iframe src= "https://forms.gle/pA1jFzN9jUF3JTX78" width="100%" height="500" frameborder="0"></iframe>
-        
+
         <p>Email: <a href="mailto:paulapsippy@gmail.com">paulapsippy@gmail.com</a></p>
         <p>WhatsApp: <a href="https://wa.me/+5521990715348">(21) 99071-5348</a></p>
 
@@ -240,4 +256,3 @@
     </footer>
 </body>
 </html>
-
