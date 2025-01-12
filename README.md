@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -86,7 +86,7 @@
 </head>
 <body>
     <header>
-        <h1>Do Mundo para sua Casa</h1>
+        <h1>Do Mundo Para Sua Casa</h1>
         <p>Consultoria de Compras Internacionais e Nacionais</p>
     </header>
 
@@ -102,7 +102,7 @@
     <div class="hero">
         <h1>Compre com segurança e confiança!</h1>
         <p>Oferecemos suporte completo para suas compras online, nacionais ou internacionais.</p>
-        <a href="#contact">Agende sua Consultoria</a>
+        <a href="#contact">Agende Sua Consultoria</a>
     </div>
 
     <section id="about">
