@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -132,7 +133,7 @@
 
     <div class="hero">
         <h1>Hikari Consultoria Digital</h1>
-        <p>Do Mundo Para a Sua Casa</p>
+        <p style="color: black;">Do Mundo para sua Casa</p>
         <a href="#contact">Agende sua Consultoria</a>
     </div>
 
@@ -165,8 +166,8 @@
     <section id="contact">
         <h2>Contato</h2>
         <p>Entre em contato para mais informações e agende sua consultoria!</p>
-        <p>Email: <a href="mailto:paulapsippy@gmail.com">Envie seu e-mail</a></p>
-        <p>WhatsApp: <a href="https://wa.me/seunumero">Envie um Whatsapp</a></p>
+        <p><a href="mailto:seuemail@example.com">seuemail@example.com</a></p>
+        <p><a href="https://wa.me/seunumero">Clique aqui para conversar</a></p>
     </section>
 
     <footer>
@@ -174,3 +175,4 @@
     </footer>
 </body>
 </html>
+
