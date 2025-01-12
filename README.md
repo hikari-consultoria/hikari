@@ -12,6 +12,9 @@
             padding: 0;
             background-color: #f8f9fa;
             color: #333;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
         }
         header {
             background-color: #4CAF50;
@@ -23,6 +26,7 @@
             position: fixed;
             top: 0;
             width: 100%;
+            max-width: 1200px;
             z-index: 1000;
         }
         header img {
@@ -53,6 +57,8 @@
             padding: 10rem 1rem;
             color: white;
             margin-top: 70px;
+            width: 100%;
+            max-width: 1200px;
         }
         .hero h1 {
             font-size: 3rem;
@@ -62,6 +68,7 @@
         .hero p {
             font-size: 1.5rem;
             margin-bottom: 2rem;
+            color: black;
         }
         .hero a {
             background-color: #FF007F;
@@ -77,6 +84,8 @@
         section {
             padding: 3rem 1rem;
             text-align: center;
+            width: 100%;
+            max-width: 1200px;
         }
         section:nth-child(even) {
             background-color: #f0f0f0;
@@ -92,6 +101,8 @@
             text-align: center;
             padding: 1rem 0;
             margin-top: 2rem;
+            width: 100%;
+            max-width: 1200px;
         }
         .services {
             display: flex;
@@ -133,7 +144,7 @@
 
     <div class="hero">
         <h1>Hikari Consultoria Digital</h1>
-        <p style="color: black;">Do Mundo para sua Casa</p>
+        <p>Do Mundo para sua Casa</p>
         <a href="#contact">Agende sua Consultoria</a>
     </div>
 
@@ -166,8 +177,8 @@
     <section id="contact">
         <h2>Contato</h2>
         <p>Entre em contato para mais informações e agende sua consultoria!</p>
-        <p><a href="mailto:seuemail@example.com">seuemail@example.com</a></p>
-        <p><a href="https://wa.me/seunumero">Clique aqui para conversar</a></p>
+        <p><a href="mailto:paulapsippy@gmail.com">Envie-nos um email</a></p>
+        <p><a href="https://wa.me/+5521990715348">Envie-nos um Whatsapp</a></p>
     </section>
 
     <footer>
