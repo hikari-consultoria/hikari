@@ -182,7 +182,6 @@
                 <li><a href="#home">🏠 Início</a></li>
                 <li><a href="#about">👩‍💻 Sobre Nós</a></li>
                 <li><a href="#services">🛠️ Serviços</a></li>
-                <li><a href="#blog">📰 Blog</a></li>
                 <li><a href="#contact">📞 Contato</a></li>
             </ul>
         </nav>
@@ -195,7 +194,7 @@
     </div>
 
     <section id="about">
-        <h2>Sobre Nós</h2>
+        <h2>Sobre Mim</h2>
         <p>Sou formada em <strong>Comércio Exterior</strong>, especializada em <strong>Importações</strong> e atualmente curso MBA de <strong>Analista de Logística</strong>. Com mais de <strong>7 anos de experiência</strong>, oferece consultoria para compras online seguras, ajudando clientes a identificar lojas confiáveis e acompanhar pedidos.</p>
     </section>
 
@@ -209,29 +208,13 @@
             </div>
             <div class="service">
                 <i class="fas fa-globe"></i>
-                <h3>Consultoria de Compras Internacional</h3>
+                <h3>Consultoria de Compras Internacionais</h3>
                 <p>Auxílio para compras em plataformas globais com segurança, incluindo análise de taxas alfandegárias e orientações para evitar fraudes.</p>
             </div>
             <div class="service">
                 <i class="fas fa-shield-alt"></i>
                 <h3>Segurança</h3>
                 <p>Garantimos que suas compras sejam protegidas contra fraudes com avaliações detalhadas e confiáveis.</p>
-            </div>
-        </div>
-    </section>
-
-    <section id="blog">
-        <h2>Blog</h2>
-        <div class="blog">
-            <div class="blog-post">
-                <h3>Como Fazer Compras Internacionais com Segurança</h3>
-                <p>Aprenda dicas essenciais para comprar em sites internacionais com confiança e evitar problemas.</p>
-                <a href="#">Leia mais</a>
-            </div>
-            <div class="blog-post">
-                <h3>Top 5 Lojas Online Nacionais</h3>
-                <p>Descubra as melhores lojas brasileiras para fazer suas compras com segurança e praticidade.</p>
-                <a href="#">Leia mais</a>
             </div>
         </div>
     </section>
