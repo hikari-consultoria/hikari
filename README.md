@@ -179,7 +179,7 @@
         <nav>
             <ul>
                 <li><a href="#home">Início</a></li>
-                <li><a href="#about">Sobre Nós</a></li>
+                <li><a href="#about">Sobre Mim</a></li>
                 <li><a href="#services">Serviços</a></li>
                 <li><a href="#blog">Blog</a></li>
                 <li><a href="#contact">Contato</a></li>
@@ -195,7 +195,7 @@
 
     <section id="about">
         <h2>Sobre Mim</h2>
-        <p>Com anos de experiência em compras online, ajudamos você a comprar com segurança e economia, superando medos e incertezas.</p>
+        <p>Paula Vasconcelos é formada em Comércio Exterior, especializada em Importações, e atualmente cursa MBA de Analista em Logística. Com mais de 7 anos de experiência em compras online, ela possui amplo conhecimento em reputação das lojas, acompanhamento de pedidos e orientação para compras seguras.</p>
     </section>
 
     <section id="services">
@@ -203,18 +203,18 @@
         <div class="services">
             <div class="service">
                 <i class="fas fa-shopping-cart"></i>
-                <h3>Consultoria Nacional</h3>
-                <p>Orientação sobre lojas confiáveis e promoções exclusivas no Brasil.</p>
+                <h3>Consultoria de Compras Nacionais</h3>
+                <p>Orientação para identificar lojas confiáveis no Brasil, aproveitar promoções exclusivas e realizar compras seguras.</p>
             </div>
             <div class="service">
                 <i class="fas fa-globe"></i>
                 <h3>Consultoria Internacional</h3>
-                <p>Auxílio para compras em plataformas globais com segurança.</p>
+                <p>Auxílio para compras em plataformas globais com segurança, incluindo análise de taxas alfandegárias e orientações para evitar fraudes.</p>
             </div>
             <div class="service">
                 <i class="fas fa-shield-alt"></i>
                 <h3>Segurança</h3>
-                <p>Garantimos que suas compras sejam protegidas contra fraudes.</p>
+                <p>Garantimos que suas compras sejam protegidas contra fraudes com avaliações detalhadas e confiáveis.</p>
             </div>
         </div>
     </section>
