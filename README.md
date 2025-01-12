@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Do Mundo para sua Casa - Consultoria</title>
+    <title>Do Mundo Para a Sua Casa - Consultoria</title>
     <style>
         body {
             font-family: Arial, sans-serif;
