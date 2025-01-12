@@ -1,9 +1,8 @@
-
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Do Mundo Para a Sua Casa - Consultoria</title>
+    <title>Hikari Consultoria Digital</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -13,13 +12,19 @@
             color: #333;
         }
         header {
-            background-color: #4CAF50;
+            background-color: #FF007F;
             color: white;
             text-align: center;
             padding: 1rem;
         }
+        header img {
+            width: 100px;
+            height: auto;
+            display: block;
+            margin: 0 auto 1rem;
+        }
         nav {
-            background-color: #333;
+            background-color: #8A2BE2;
             padding: 0.5rem 0;
         }
         nav ul {
@@ -41,12 +46,10 @@
             text-decoration: underline;
         }
         .hero {
-            background-image: url('https://via.placeholder.com/1500x500');
-            background-size: cover;
-            background-position: center;
+            background-color: #FFD700;
             text-align: center;
             padding: 3rem 1rem;
-            color: white;
+            color: #333;
         }
         .hero h1 {
             font-size: 2.5rem;
@@ -57,7 +60,7 @@
             margin-bottom: 2rem;
         }
         .hero a {
-            background-color: #4CAF50;
+            background-color: #FF007F;
             color: white;
             padding: 0.8rem 1.5rem;
             text-decoration: none;
@@ -65,7 +68,7 @@
             border-radius: 5px;
         }
         .hero a:hover {
-            background-color: #45a049;
+            background-color: #E60073;
         }
         section {
             padding: 2rem 1rem;
@@ -74,6 +77,7 @@
         section h2 {
             font-size: 2rem;
             margin-bottom: 1rem;
+            color: #8A2BE2;
         }
         footer {
             background-color: #333;
@@ -86,8 +90,9 @@
 </head>
 <body>
     <header>
-        <h1>Do Mundo Para Sua Casa</h1>
-        <p>Consultoria de Compras Internacionais e Nacionais</p>
+        <img src="logo.png" alt="Logo Hikari Consultoria Digital">
+        <h1>Hikari Consultoria Digital</h1>
+        <p>Do Mundo Para a Sua Casa</p>
     </header>
 
     <nav>
@@ -102,7 +107,7 @@
     <div class="hero">
         <h1>Compre com segurança e confiança!</h1>
         <p>Oferecemos suporte completo para suas compras online, nacionais ou internacionais.</p>
-        <a href="#contact">Agende Sua Consultoria</a>
+        <a href="#contact">Agende sua Consultoria</a>
     </div>
 
     <section id="about">
@@ -118,12 +123,12 @@
     <section id="contact">
         <h2>Contato</h2>
         <p>Entre em contato conosco para mais informações e agende sua consultoria!</p>
-        <p>Email: <a href="mailto:seuemail@example.com">seuemail@example.com</a></p>
+        <p>Email: <a href="mailto:paulapsippy@gmail.com">seuemail@example.com</a></p>
         <p>WhatsApp: <a href="https://wa.me/seunumero">Clique aqui para conversar</a></p>
     </section>
 
     <footer>
-        <p>&copy; 2025 Do Mundo para sua Casa. Todos os direitos reservados.</p>
+        <p>&copy; 2025 Hikari Consultoria Digital. Todos os direitos reservados.</p>
     </footer>
 </body>
 </html>
