@@ -41,12 +41,55 @@
             color: white;
             text-decoration: none;
             font-size: 1rem;
+        }<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hikari Consultoria Digital</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+            color: #333;
+        }
+        header {
+            background-color: #D291BC;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+        }
+        header img {
+            width: 100px;
+            height: auto;
+            display: block;
+            margin: 0 auto 1rem;
+        }
+        nav {
+            background-color: #B399D4;
+            padding: 0.5rem 0;
+        }
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 1rem;
         }
         nav ul li a:hover {
             text-decoration: underline;
         }
         .hero {
-            background-color: #FFD700;
+            background-color: #D291BC;
             text-align: center;
             padding: 3rem 1rem;
             color: #333;
@@ -60,7 +103,7 @@
             margin-bottom: 2rem;
         }
         .hero a {
-            background-color: #FF007F;
+            background-color: #B399D4;
             color: white;
             padding: 0.8rem 1.5rem;
             text-decoration: none;
@@ -68,7 +111,7 @@
             border-radius: 5px;
         }
         .hero a:hover {
-            background-color: #E60073;
+            background-color: #9E8AC7;
         }
         section {
             padding: 2rem 1rem;
@@ -77,7 +120,7 @@
         section h2 {
             font-size: 2rem;
             margin-bottom: 1rem;
-            color: #8A2BE2;
+            color: #B399D4;
         }
         footer {
             background-color: #333;
@@ -123,7 +166,7 @@
     <section id="contact">
         <h2>Contato</h2>
         <p>Entre em contato conosco para mais informações e agende sua consultoria!</p>
-        <p>Email: <a href="mailto:paulapsippy@gmail.com">seuemail@example.com</a></p>
+        <p>Email: <a href="mailto:paulapsippy2gmail.com">seuemail@example.com</a></p>
         <p>WhatsApp: <a href="https://wa.me/seunumero">Clique aqui para conversar</a></p>
     </section>
 
@@ -132,3 +175,4 @@
     </footer>
 </body>
 </html>
+
