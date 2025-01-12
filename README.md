@@ -1,4 +1,3 @@
-
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -21,7 +20,7 @@
             color: white;
             padding: 1rem;
             display: flex;
-            justify-content: center;
+            justify-content: space-between;
             align-items: center;
             position: fixed;
             top: 0;
@@ -129,6 +128,42 @@
             color: #4CAF50;
             margin-bottom: 1rem;
         }
+        .blog {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 2rem;
+        }
+        .blog-post {
+            background: white;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 1rem;
+            width: 100%;
+            max-width: 800px;
+            text-align: left;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .blog-post h3 {
+            color: #4CAF50;
+        }
+        .social-links {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            margin-top: 1rem;
+        }
+        .social-links a {
+            color: white;
+            font-size: 1.5rem;
+            text-decoration: none;
+            padding: 0.5rem;
+            border-radius: 50%;
+            background-color: #FF007F;
+        }
+        .social-links a:hover {
+            background-color: #E60073;
+        }
     </style>
 </head>
 <body>
@@ -139,6 +174,7 @@
                 <li><a href="#home">Início</a></li>
                 <li><a href="#about">Sobre Nós</a></li>
                 <li><a href="#services">Serviços</a></li>
+                <li><a href="#blog">Blog</a></li>
                 <li><a href="#contact">Contato</a></li>
             </ul>
         </nav>
@@ -176,11 +212,32 @@
         </div>
     </section>
 
+    <section id="blog">
+        <h2>Blog</h2>
+        <div class="blog">
+            <div class="blog-post">
+                <h3>Como Fazer Compras Internacionais com Segurança</h3>
+                <p>Aprenda dicas essenciais para comprar em sites internacionais com confiança e evitar problemas.</p>
+                <a href="#">Leia mais</a>
+            </div>
+            <div class="blog-post">
+                <h3>Top 5 Lojas Online Nacionais</h3>
+                <p>Descubra as melhores lojas brasileiras para fazer suas compras com segurança e praticidade.</p>
+                <a href="#">Leia mais</a>
+            </div>
+        </div>
+    </section>
+
     <section id="contact">
         <h2>Contato</h2>
         <p>Entre em contato para mais informações e agende sua consultoria!</p>
-        <p><a href="mailto:paulapsippy@gmail.com">EMAIL</a></p>
-        <p><a href="https://wa.me/+5521990715348">WHATSAPP</a></p>
+        <p>Email: <a href="mailto:seuemail@example.com">seuemail@example.com</a></p>
+        <p>WhatsApp: <a href="https://wa.me/seunumero">Clique aqui para conversar</a></p>
+
+        <div class="social-links">
+            <a href="https://instagram.com/suaperfil" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://facebook.com/suaperfil" target="_blank"><i class="fab fa-facebook"></i></a>
+        </div>
     </section>
 
     <footer>
@@ -188,3 +245,4 @@
     </footer>
 </body>
 </html>
+
