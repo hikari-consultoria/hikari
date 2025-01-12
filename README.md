@@ -223,12 +223,8 @@
         <h2>Contato</h2>
         
         <p>Entre em contato pelo formulário ou pelos canais abaixo:</p>
-        <form action="process.php" method="POST">
-    <input type="text" name="nome" placeholder="Seu nome" required>
-    <input type="tel" name="whatsapp" placeholder="Seu WhatsApp" required>
-    <input type="email" name="email" placeholder="Seu email" required>
-    <button type="submit">Enviar</button>
-</form>
+        
+        <iframe src= "https://forms.gle/pA1jFzN9jUF3JTX78" width="100%" height="500" frameborder="0"></iframe>
         
         <p>Email: <a href="mailto:paulapsippy@gmail.com">paulapsippy@gmail.com</a></p>
         <p>WhatsApp: <a href="https://wa.me/+5521990715348">(21) 99071-5348</a></p>
