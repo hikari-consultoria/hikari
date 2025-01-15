@@ -1,24 +1,30 @@
-/* Estilo para o corpo da página */
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f9f9f9;
-    margin: 0;
-    padding: 0;
-    text-align: center;
+/* Estilo básico do botão */
+#btnTop {
+    display: none; /* Oculto por padrão */
+    position: fixed; /* Fica fixo na tela */
+    bottom: 20px; /* Distância da parte inferior */
+    right: 20px; /* Distância do lado direito */
+    background-color: #ff69b4; /* Rosa do seu site */
+    color: white; /* Texto branco */
+    border: none; /* Sem bordas */
+    border-radius: 50px; /* Borda arredondada */
+    padding: 10px 20px; /* Espaço interno do botão */
+    font-size: 16px; /* Tamanho do texto */
+    cursor: pointer; /* Muda o cursor para "mãozinha" */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Sombra */
+    transition: opacity 0.3s ease, transform 0.3s ease; /* Efeito suave */
 }
 
-/* Estilo para o botão */
-button {
-    background-color: #ff69b4;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    padding: 10px 20px;
-    font-size: 16px;
-    cursor: pointer;
+/* Botão ao passar o mouse */
+#btnTop:hover {
+    background-color: #ff85c1; /* Um tom mais claro de rosa */
 }
 
-button:hover {
-    background-color: #ff85c1;
+/* Classe para mostrar o botão */
+#btnTop.show {
+    display: block; /* Torna o botão visível */
+    opacity: 1; /* Totalmente visível */
+    transform: translateY(0); /* Sem deslocamento */
 }
+
 
