@@ -1,17 +1,17 @@
-// Mostra o botão quando o usuário rola para baixo
+// Exibe o botão "Top" ao rolar para baixo
 window.onscroll = function() {
     const btnTop = document.getElementById("btnTop");
     if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
-        btnTop.classList.add("show"); // Mostra o botão
+        btnTop.classList.add("show"); // Adiciona a classe para mostrar
     } else {
-        btnTop.classList.remove("show"); // Esconde o botão
+        btnTop.classList.remove("show"); // Remove a classe para esconder
     }
 };
 
-// Função para rolar até o topo
+// Função para voltar ao topo da página
 function scrollToTop() {
     window.scrollTo({
-        top: 0, // Vai para o topo da página
-        behavior: "smooth" // Faz o movimento suave
+        top: 0, // Vai para o topo
+        behavior: "smooth" // Rola suavemente
     });
 }
