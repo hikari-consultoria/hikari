@@ -1,30 +1,29 @@
-/* Estilo básico do botão */
+/* Estilo do botão "Top" */
 #btnTop {
-    display: none; /* Oculto por padrão */
+    display: none; /* Inicialmente escondido */
     position: fixed; /* Fica fixo na tela */
     bottom: 20px; /* Distância da parte inferior */
-    right: 20px; /* Distância do lado direito */
-    background-color: #ff69b4; /* Rosa do seu site */
-    color: white; /* Texto branco */
-    border: none; /* Sem bordas */
-    border-radius: 50px; /* Borda arredondada */
-    padding: 10px 20px; /* Espaço interno do botão */
-    font-size: 16px; /* Tamanho do texto */
-    cursor: pointer; /* Muda o cursor para "mãozinha" */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Sombra */
-    transition: opacity 0.3s ease, transform 0.3s ease; /* Efeito suave */
+    right: 20px; /* Distância da lateral direita */
+    background-color: #FF007F; /* Rosa, combinando com o site */
+    color: white;
+    border: none;
+    border-radius: 50px;
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    z-index: 1000; /* Sempre acima de outros elementos */
+    transition: opacity 0.3s ease-in-out, transform 0.3s ease;
 }
 
-/* Botão ao passar o mouse */
+/* Hover no botão */
 #btnTop:hover {
-    background-color: #ff85c1; /* Um tom mais claro de rosa */
+    background-color: #E60073; /* Um tom mais claro de rosa */
 }
 
-/* Classe para mostrar o botão */
+/* Quando o botão estiver visível */
 #btnTop.show {
-    display: block; /* Torna o botão visível */
-    opacity: 1; /* Totalmente visível */
-    transform: translateY(0); /* Sem deslocamento */
+    display: block; /* Exibe o botão */
+    opacity: 1; /* Visível */
+    transform: translateY(0); /* Fica estático */
 }
-
-
