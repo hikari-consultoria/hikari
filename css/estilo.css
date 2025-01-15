@@ -28,5 +28,171 @@
     transform: translateY(0); /* Fica estático */
 }
 
+/* Estilo Geral do Blog */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa; /* Fundo claro */
+    color: #333; /* Texto em cor escura */
+    margin: 0;
+    padding: 0;
+    line-height: 1.6; /* Melhor legibilidade */
+}
+
+/* Estilo para Títulos */
+h1, h2 {
+    color: #4CAF50; /* Verde do tema */
+    text-align: center; /* Centralizado */
+    margin: 1.5rem 0; /* Espaçamento acima e abaixo */
+}
+
+h1 {
+    font-size: 2.5rem; /* Título principal maior */
+}
+
+h2 {
+    font-size: 2rem; /* Subtítulos menores */
+}
+
+/* Estilo para Parágrafos */
+p {
+    margin: 1rem auto;
+    max-width: 800px; /* Limita largura para facilitar leitura */
+    text-align: justify; /* Alinha texto justificado */
+    color: #555; /* Tom mais suave que o texto principal */
+}
+
+/* Links no Blog */
+a {
+    color: #FF007F; /* Rosa do tema */
+    text-decoration: none; /* Remove sublinhado padrão */
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline; /* Adiciona sublinhado ao passar o mouse */
+}
+
+/* Botões */
+button, .btn {
+    background-color: #FF007F; /* Rosa do tema */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 0.8rem 1.5rem;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+button:hover, .btn:hover {
+    background-color: #E60073; /* Tom mais escuro no hover */
+}
+
+/* Estilo para o Rodapé */
+footer {
+    background-color: #333; /* Fundo escuro */
+    color: white; /* Texto branco */
+    text-align: center;
+    padding: 1rem 0;
+    font-size: 0.9rem;
+}
+
+/* Hero Section (Cabeçalho com Imagem) */
+.hero {
+    background-image: url('https://via.placeholder.com/1500x500'); /* Placeholder de imagem */
+    background-size: cover; /* Cobrir toda a largura */
+    background-position: center;
+    text-align: center; /* Centraliza conteúdo */
+    padding: 10rem 1rem;
+    color: white;
+    margin-top: 70px;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.hero h1 {
+    font-size: 3rem; /* Tamanho do título principal */
+    margin-bottom: 1rem;
+    color: black; /* Cor alternativa */
+}
+
+.hero p {
+    font-size: 1.5rem; /* Tamanho da descrição */
+    margin-bottom: 2rem;
+    color: black;
+}
+
+/* Estilo para Imagens no Blog */
+img {
+    max-width: 100%; /* Garante que as imagens não ultrapassem a largura */
+    height: auto; /* Mantém proporção */
+    display: block;
+    margin: 1rem auto; /* Centraliza imagens */
+}
+
+/* Estilo para Listas */
+ul {
+    list-style: none; /* Remove marcadores padrão */
+    padding: 0;
+    margin: 1rem auto;
+    max-width: 800px;
+}
+
+ul li {
+    padding: 0.5rem 0;
+    font-size: 1rem;
+    color: #555; /* Tom suave */
+}
+
+/* Cards para Posts */
+.card {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin: 1rem auto;
+    max-width: 800px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.card h3 {
+    color: #4CAF50;
+    font-size: 1.5rem;
+}
+
+.card p {
+    color: #666; /* Texto dos cards em tom mais claro */
+    font-size: 1rem;
+}
+
+/* Estilo para Formulários */
+form {
+    margin: 2rem auto;
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+form input, form textarea, form button {
+    padding: 0.8rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    width: 100%;
+}
+
+form button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #45a049;
+}
+
+
 
 
