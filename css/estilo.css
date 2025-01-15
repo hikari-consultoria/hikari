@@ -57,7 +57,7 @@ h2 {
 p {
     margin: 1rem auto;
     max-width: 800px; /* Limita largura para facilitar leitura */
-    text-align: justify; /* Alinha texto justificado */
+    text-align: center; /* centralizado */
     color: #555; /* Tom mais suave que o texto principal */
 }
 
