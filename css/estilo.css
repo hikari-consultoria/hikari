@@ -117,9 +117,10 @@ footer {
 }
 
 .hero p {
-    font-size: 1.5rem; /* Tamanho da descrição */
-    margin-bottom: 2rem;
-    color: black;
+    font-size: 1.5rem; /* Tamanho do texto */
+    margin-bottom: 2rem; /* Espaçamento inferior */
+    color: black; /* Cor do texto */
+    text-align: center; /* Centraliza o texto */
 }
 
 /* Estilo para Imagens no Blog */
