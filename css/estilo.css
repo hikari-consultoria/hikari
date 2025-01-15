@@ -27,3 +27,45 @@
     opacity: 1; /* Visível */
     transform: translateY(0); /* Fica estático */
 }
+
+/* Estilo básico para o blog */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa; /* Fundo claro */
+    color: #333; /* Cor do texto */
+    margin: 0;
+    padding: 0;
+}
+
+/* Títulos no blog */
+h1, h2 {
+    color: #4CAF50; /* Verde do tema */
+    text-align: center;
+}
+
+/* Parágrafos */
+p {
+    line-height: 1.6;
+    margin: 1rem auto;
+    max-width: 800px;
+    text-align: justify;
+}
+
+/* Links */
+a {
+    color: #FF007F; /* Rosa do tema */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
+
